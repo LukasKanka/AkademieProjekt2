@@ -1,0 +1,61 @@
+/* Import barviček z colors.css */
+@import "colors.css";
+
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+/* Harry ( header) */
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: var(--special-blue);
+  height: 70px;
+  flex-direction: row;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo img {
+  width: 200px;
+  margin-left: 20px;
+}
+
+/* Harry - navigation */
+nav {
+  margin-right: 30px;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: var(--special-white);
+}
+
+/*Harry - navigation icons */
+
+.menu-icon {
+  display: none;
+  margin-right: 30px;
+}
+
+/* Harry - Welcome*/
+
+.welcome {
+  background: url("image/background.webp");
+  min-height: calc(100vh - 70px);
+  background-size: cover;
+  background-position: center;
+}
